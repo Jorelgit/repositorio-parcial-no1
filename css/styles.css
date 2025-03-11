@@ -1,0 +1,10 @@
+/*Menu de Inicio*/
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.carousel-item {
+    height: 450px;
+}
