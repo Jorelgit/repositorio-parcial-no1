@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
-<body>
+<body class="body-registro">
     
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -31,6 +31,89 @@
             </div>
         </div>
     </nav>
+
+
+
+    <h2 class="text-center m-5">Ingrese los datos para registrarse</h2>
+
+    <form id="registroForm" class="p-5 border rounded registro-form">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombres</label>
+                <input type="text" id="nombre" class="form-control" required>
+            </div>
+            <div class="col-md-6">
+                <label for="apellido" class="form-label">Apellidos</label>
+                <input type="text" id="apellido" class="form-control" required>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="col-md-6">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="text" id="telefono" class="form-control" required>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <label for="estrato" class="form-label">Estrato</label>
+                <select id="estrato" class="form-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="fechaNacimiento" class="form-label">Fecha Nacimiento</label>
+                <input type="date" id="fechaNacimiento" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label for="grupoSanguineo" class="form-label">Grupo Sanguíneo</label>
+                <select id="grupoSanguineo" class="form-select">
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <label class="form-label">Género</label>
+                <div>
+                    <input type="radio" name="genero" value="Masculino"> Masculino
+                    <input type="radio" name="genero" value="Femenino"> Femenino
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">Actividades Favoritas</label>
+                <div>
+                    <input type="checkbox" value="Futbol"> Fútbol
+                    <input type="checkbox" value="Baloncesto"> Baloncesto
+                    <input type="checkbox" value="Voleibol"> Voleibol
+                    <input type="checkbox" value="Ciclismo"> Ciclismo
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center">
+            <button type="submit" class="btn btn-success" id="registrarBtn">Registrar</button>
+            <button type="button" class="btn btn-danger" id="cancelarBtn">Cancelar</button>
+        </div>
+    </form>
 
 
 

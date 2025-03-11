@@ -82,3 +82,16 @@ body {
 .form-control {
     width: 300px;
 }
+
+
+
+/*Menu de registr*/
+
+.body-registro {
+    background-color: rgb(222, 225, 226);
+}
+
+.registro-form {
+    background-color: rgb(222, 225, 226);
+    box-shadow: 0 0 15px #444;
+}
