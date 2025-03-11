@@ -8,3 +8,26 @@ body {
 .carousel-item {
     height: 450px;
 }
+
+
+/*Menu de Productos*/
+
+.card img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho de la tarjeta */
+    height: 200px; /* Ajusta la altura de la imagen para que sea uniforme */
+    object-fit: cover; /* Recorta la imagen sin deformarla */
+    border-top-left-radius: 10px; /* Opcional: redondea esquinas si es necesario */
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card-title {
+    background-color: #cbc5c5;
+}
+
+.boton-productos {
+    width: 150px;
+    text-align: center;
+    margin: auto;
+}
