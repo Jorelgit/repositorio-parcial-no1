@@ -83,6 +83,18 @@ body {
     width: 300px;
 }
 
+.body-login {
+    background-color: rgb(222, 225, 226);
+}
+
+.login-form {
+    border: none;
+    border-radius: 60px;
+    box-shadow: 0 0 20px #444;
+    background-color: rgb(222, 225, 226);
+}
+
+
 
 
 /*Menu de registr*/
